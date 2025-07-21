@@ -30,8 +30,8 @@ This project is primarily implemented in MATLAB, based on the figures provided i
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/Differentially-Private-Quantized-Containment-Control.git](https://github.com/your-username/Differentially-Private-Quantized-Containment-Control.git)
-    cd Differentially-Private-Quantized-Containment-Control
+    git clone [https://github.com/dennisjobs/Multi_agent_contaiment_control_with_dp-quantisation.git]
+    cd Multi_agent_containment_control_with_dp-quantisation
     ```
 2.  **Open MATLAB:** Navigate to the cloned directory in MATLAB.
 3.  **Run the index.m file:**
