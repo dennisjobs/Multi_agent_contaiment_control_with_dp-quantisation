@@ -3,6 +3,7 @@
 This repository contains the code and simulation results for the research paper:
 
 **"Multi-agent Containment Control with Differentially Private Schemes and Quantization"**
+
 By Sourav Bhowmick, Mallena Vardhan*, Dennis Jobby*, and Deepak Mishra.
 
 The paper investigates containment control of networked discrete-time dynamical systems by incorporating differential privacy (DP) and communication constraints in the form of quantization. The work focuses on analyzing the convergence of the containment control problem, the boundedness of the quantization, and the differential privacy achieved by follower agents.
