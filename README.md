@@ -15,8 +15,8 @@ The paper investigates containment control of networked discrete-time dynamical 
 * **Quantization:** Employment of a uniform quantizer with a dynamic encoding-decoding scheme for communication among follower agents in a communication-constrained environment.
 * **Convergence Analysis:** Code to demonstrate the convergence of follower states to a random vector almost surely, and the realization of mean square containment control.
 * **Quantization Bound Analysis:** Analysis of the boundedness of the quantization mechanism to ensure the quantizer remains unsaturated.
-* **Privacy Analysis:** Verification of the $\hat{\epsilon}$-differential privacy for individual follower agents and the entire MAS network.
-* **Numerical Simulations:** MATLAB/Python scripts to reproduce the simulation results presented in the paper, verifying the effectiveness of the proposed methodology.
+* **Privacy Analysis:** Verification of the differential privacy for individual follower agents and the entire MAS network.
+* **Numerical Simulations:** MATLAB scripts to reproduce the simulation results presented in the paper, verifying the effectiveness of the proposed methodology.
 
 ## Paper Abstract
 
