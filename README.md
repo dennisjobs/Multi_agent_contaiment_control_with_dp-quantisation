@@ -3,7 +3,7 @@
 # Multi-Agent Containment Control with Differential Privacy and Quantization
 
 [![Paper](https://img.shields.io/badge/IEEE_T--ASE-2026-blue)](https://doi.org/10.1109/TASE.2026.3701948)
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2021a%2B-orange)](https://www.mathworks.com/products/matlab.html)
+
 
 MATLAB simulation code for the paper:
 
@@ -70,11 +70,6 @@ The three main theoretical results verified by simulation are:
 
 ---
 
-## Requirements
-
-- MATLAB R2021a or later (no additional toolboxes required)
-
----
 
 ## How to run
 
