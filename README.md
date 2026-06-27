@@ -156,23 +156,6 @@ The main tunable parameters (all set in `index.m`):
 
 ---
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{bhowmick2026containment,
-  author    = {Bhowmick, Sourav and Vardhan, Mallena and Jobby, Dennis and Mishra, Deepak},
-  title     = {Multi-Agent Containment Control with Differentially Private Schemes and Quantization},
-  journal   = {IEEE Transactions on Automation Science and Engineering},
-  volume    = {23},
-  year      = {2026},
-  doi       = {10.1109/TASE.2026.3701948}
-}
-```
-
----
-
 ## Authors
 
 | Author | Affiliation | Contact |
