@@ -1,0 +1,23 @@
+function [G, alpha_bar] = G_generator(W, B, theta, num_f)
+%G_GENERATOR Generates matrix G and alpha_bar for consensus computation
+
+% Step 1: Initialize random alpha_bar and normalize row-wise
+alpha_bar = rand(num_f, num_f);
+
+for k = 1:num_f
+    row_sum = sum(alpha_bar(k,:));   % row-wise sum
+    alpha_bar(k,:) = alpha_bar(k,:) / row_sum;  % Normalize with W weights
+end
+
+% Step 2: Compute Left-Hand Side of the linear system
+LHS = (eye(num_f) - diag(theta)) * W * alpha_bar + diag(theta) * B;
+
+% Step 3: Solve for G
+G = linsolve(alpha_bar,LHS);  % Equivalent to inv(alpha_bar) * LHS
+
+% Step 4: Regenerate G if conditions are not met
+if ~(max(eig(G)) < 1 && if_neg(G))
+    [G, alpha_bar] = G_generator(W, B, theta, num_f);  % Recursive call
+end
+
+end
