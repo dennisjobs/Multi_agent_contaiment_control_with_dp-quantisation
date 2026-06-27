@@ -122,21 +122,6 @@ The main tunable parameters (all set in `index.m`):
 
 ---
 
-## System overview
-
-```
-Reference agents (leaders)               Followers
-x_l(k+1) = G·x_l(k) + η̂               x(k+1) = (I−Θ)W·x(k) − (I−Θ)W̄·δ(k)
-                                                  + (S+(I−Θ)W+ΘB)·ω(k) + ΘB·x_l(k)
-
-          ←── analog channel (exact x_l) ───←
-          →── analog channel (exact x_l) ───→
-
-                     Follower ↔ follower: digital channel
-                     x̄(k) → [ Encoder ] → φ(k) → [ Decoder ] → x̂(k)
-                     δ(k) = x̄(k) − x̂(k)    (quantization error)
-```
-
 **Privacy mechanism:** each follower adds ω_i(k) ~ Lap(0, c_i·q_i^k) to its state before transmitting. An adversary observing only the encoded output φ(k) cannot distinguish between δ̂-adjacent initial conditions — this is the ε̂-differential privacy guarantee of Theorem 3.
 
 ---
